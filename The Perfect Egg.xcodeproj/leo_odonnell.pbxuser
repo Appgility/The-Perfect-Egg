@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	15351D281071125A003F25B6 /* MainViewController.m:128 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		functionName = "-loadPrefs";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 128;
+		location = "The Perfect Egg";
+		modificationTime = 276450107.190972;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	15351D2D10711297003F25B6 /* MainViewController.m:177 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 177;
+		location = "The Perfect Egg";
+		modificationTime = 276450107.191085;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	15351D52107119CF003F25B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15E6492C10602DEC00F9E0E9 /* EggTimer.m */;
+		name = "EggTimer.m: 56";
+		rLen = 0;
+		rLoc = 1938;
+		rType = 0;
+		vrLen = 1531;
+		vrLoc = 1221;
+	};
+	15351D53107119CF003F25B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A40DB2D0840083E9F9 /* MainView.h */;
+		name = "MainView.h: 28";
+		rLen = 0;
+		rLoc = 1243;
+		rType = 0;
+		vrLen = 1284;
+		vrLoc = 0;
+	};
+	15351D54107119CF003F25B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15DBC0D31070408A00A8BF49 /* Root.strings */;
+		name = "Root.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 272;
+		vrLoc = 0;
+	};
+	15351D55107119CF003F25B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A80DB2D0DB0083E9F9 /* MainViewController.h */;
+		name = "MainViewController.h: 43";
+		rLen = 0;
+		rLoc = 1626;
+		rType = 0;
+		vrLen = 2033;
+		vrLoc = 131;
+	};
+	15351D9410713021003F25B6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 15DBC0CF1070408A00A8BF49 /* Root.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			PreferenceSpecifiers,
+			0,
+			DefaultValue,
+		);
+		name = "/Users/leo_odonnell/Documents/My Documents/Projects/The Perfect Egg/Settings.bundle/Root.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	158E9B10106D89C1005522DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A50DB2D0840083E9F9 /* MainView.m */;
+		name = "MainView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1514;
+		vrLoc = 0;
+	};
+	159BBE98106E7146001DF11C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A30DB2D0840083E9F9 /* FlipsideView.m */;
+		name = "FlipsideView.m: 33";
+		rLen = 0;
+		rLoc = 1281;
+		rType = 0;
+		vrLen = 1525;
+		vrLoc = 0;
+	};
+	15A07EDB107A4CC5001DF701 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		name = "MainViewController.m: 184";
+		rLen = 0;
+		rLoc = 6236;
+		rType = 0;
+		vrLen = 1049;
+		vrLoc = 7867;
+	};
+	15B4B0EF1067D71300E14524 /* Movie.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = Movie.m;
+		path = "/Users/leo_odonnell/Documents/My Documents/Books/Coding In Objective C/v-bdobjc-v-01-code 2/Movie_Player/Movie.m";
+		sourceTree = "<absolute>";
+	};
+	15B4B11E1067DBBA00E14524 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15B4B0EF1067D71300E14524 /* Movie.m */;
+		name = "Movie.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 626;
+		vrLoc = 0;
+	};
+	15B4B1201067DBBA00E14524 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15B4B1211067DBBA00E14524 /* CLLocationManager.h */;
+		name = "CLLocationManager.h: 6";
+		rLen = 1;
+		rLoc = 91;
+		rType = 0;
+		vrLen = 966;
+		vrLoc = 0;
+	};
+	15B4B1211067DBBA00E14524 /* CLLocationManager.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CLLocationManager.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h;
+		sourceTree = "<absolute>";
+	};
+	15DBC008106E772100A8BF49 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A20DB2D0840083E9F9 /* FlipsideView.h */;
+		name = "FlipsideView.h: 27";
+		rLen = 0;
+		rLoc = 1223;
+		rType = 0;
+		vrLen = 1269;
+		vrLoc = 0;
+	};
+	15DBC05E106E9E9200A8BF49 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 15E6492B10602DEC00F9E0E9 /* EggTimer.h */;
+		name = "EggTimer.h: 111";
+		rLen = 0;
+		rLoc = 3313;
+		rType = 0;
+		vrLen = 1701;
+		vrLoc = 1860;
+	};
+	15DBC07D106EA0D900A8BF49 /* MainViewController.m:66 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		functionName = "-updateTimeToCook";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 66;
+		location = "The Perfect Egg";
+		modificationTime = 276450107.19045;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	15DBC0A31070068D00A8BF49 /* MainViewController.m:163 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		functionName = "-savePrefs";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 163;
+		location = "The Perfect Egg";
+		modificationTime = 276450107.1907889;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	15DBC0B510700E3500A8BF49 /* EggTimer.m:56 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 15E6492C10602DEC00F9E0E9 /* EggTimer.m */;
+		functionName = "-setUseAltitude:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 56;
+		location = "The Perfect Egg";
+		modificationTime = 276450107.1909119;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	15DBC0B710700E6300A8BF49 /* EggTimer.m:172 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 15E6492C10602DEC00F9E0E9 /* EggTimer.m */;
+		functionName = "-locationManager:didUpdateToLocation:fromLocation:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 172;
+		location = "The Perfect Egg";
+		modificationTime = 276450107.190943;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	15DBC0CA1070408A00A8BF49 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */;
+		name = "FlipsideViewController.m: 43";
+		rLen = 0;
+		rLoc = 1508;
+		rType = 0;
+		vrLen = 1958;
+		vrLoc = 266;
+	};
+	15DBC0CB1070408A00A8BF49 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */;
+		name = "FlipsideViewController.h: 46";
+		rLen = 0;
+		rLoc = 1848;
+		rType = 0;
+		vrLen = 1981;
+		vrLoc = 0;
+	};
+	15DBC0CF1070408A00A8BF49 /* Root.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = Root.plist;
+		path = "/Users/leo_odonnell/Documents/My Documents/Projects/The Perfect Egg/Settings.bundle/Root.plist";
+		sourceTree = "<absolute>";
+	};
+	15DBC0D31070408A00A8BF49 /* Root.strings */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.strings;
+		name = Root.strings;
+		path = "/Users/leo_odonnell/Documents/My Documents/Projects/The Perfect Egg/Settings.bundle/en.lproj/Root.strings";
+		sourceTree = "<absolute>";
+	};
+	15E54B5610763727009795AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		name = "MainViewController.m: 184";
+		rLen = 0;
+		rLoc = 6236;
+		rType = 0;
+		vrLen = 1049;
+		vrLoc = 7867;
+	};
+	15E6491510602BE400F9E0E9 /* The Perfect Egg */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "The Perfect Egg";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$lr = 1;
+			$pc = 1;
+			$r0 = 1;
+			$r1 = 1;
+			$r10 = 1;
+			$r11 = 1;
+			$r12 = 1;
+			$r2 = 1;
+			$r3 = 1;
+			$r4 = 1;
+			$r5 = 1;
+			$r6 = 1;
+			$r7 = 1;
+			$r8 = 1;
+			$r9 = 1;
+			$sp = 1;
+		};
+	};
+	15E6492710602BF500F9E0E9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	15E6492810602BF500F9E0E9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	15E6492B10602DEC00F9E0E9 /* EggTimer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {773, 1586}}";
+			sepNavSelRange = "{3313, 0}";
+			sepNavVisRange = "{1860, 1701}";
+			sepNavWindowFrame = "{{15, 482}, {683, 1091}}";
+		};
+	};
+	15E6492C10602DEC00F9E0E9 /* EggTimer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {773, 2743}}";
+			sepNavSelRange = "{1938, 0}";
+			sepNavVisRange = "{1221, 1530}";
+			sepNavWindowFrame = "{{84, 419}, {683, 1091}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* The Perfect Egg */ = {
+		activeExec = 0;
+		executables = (
+			15E6491510602BE400F9E0E9 /* The Perfect Egg */,
+		);
+	};
+	289233A20DB2D0840083E9F9 /* FlipsideView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {635, 929}}";
+			sepNavSelRange = "{1223, 0}";
+			sepNavVisRange = "{0, 1269}";
+		};
+	};
+	289233A30DB2D0840083E9F9 /* FlipsideView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {635, 937}}";
+			sepNavSelRange = "{1281, 0}";
+			sepNavVisRange = "{0, 1525}";
+		};
+	};
+	289233A40DB2D0840083E9F9 /* MainView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {773, 706}}";
+			sepNavSelRange = "{1243, 0}";
+			sepNavVisRange = "{0, 1284}";
+		};
+	};
+	289233A50DB2D0840083E9F9 /* MainView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {635, 940}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1514}";
+		};
+	};
+	289233A80DB2D0DB0083E9F9 /* MainViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {773, 806}}";
+			sepNavSelRange = "{1626, 0}";
+			sepNavVisRange = "{131, 2033}";
+		};
+	};
+	289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {727, 4355}}";
+			sepNavSelRange = "{6236, 0}";
+			sepNavVisRange = "{7867, 1049}";
+			sepNavWindowFrame = "{{61, 440}, {683, 1091}}";
+		};
+	};
+	289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {773, 879}}";
+			sepNavSelRange = "{1848, 0}";
+			sepNavVisRange = "{0, 1981}";
+		};
+	};
+	289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {773, 1001}}";
+			sepNavSelRange = "{1508, 0}";
+			sepNavVisRange = "{266, 1958}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 15E6491510602BE400F9E0E9 /* The Perfect Egg */;
+		activeSDKPreference = iphonesimulator3.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* The Perfect Egg */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* The Perfect Egg */,
+		);
+		breakpoints = (
+			15DBC07D106EA0D900A8BF49 /* MainViewController.m:66 */,
+			15DBC0A31070068D00A8BF49 /* MainViewController.m:163 */,
+			15DBC0B510700E3500A8BF49 /* EggTimer.m:56 */,
+			15DBC0B710700E6300A8BF49 /* EggTimer.m:172 */,
+			15351D281071125A003F25B6 /* MainViewController.m:128 */,
+			15351D2D10711297003F25B6 /* MainViewController.m:177 */,
+		);
+		codeSenseManager = 15E6492810602BF500F9E0E9 /* Code sense */;
+		executables = (
+			15E6491510602BE400F9E0E9 /* The Perfect Egg */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					595,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					535,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					555,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 276452530;
+			PBXWorkspaceStateSaveDate = 276452530;
+		};
+		perUserProjectItems = {
+			15351D52107119CF003F25B6 = 15351D52107119CF003F25B6 /* PBXTextBookmark */;
+			15351D53107119CF003F25B6 = 15351D53107119CF003F25B6 /* PBXTextBookmark */;
+			15351D54107119CF003F25B6 = 15351D54107119CF003F25B6 /* PBXTextBookmark */;
+			15351D55107119CF003F25B6 = 15351D55107119CF003F25B6 /* PBXTextBookmark */;
+			15351D9410713021003F25B6 = 15351D9410713021003F25B6 /* PlistBookmark */;
+			158E9B10106D89C1005522DA = 158E9B10106D89C1005522DA /* PBXTextBookmark */;
+			159BBE98106E7146001DF11C = 159BBE98106E7146001DF11C /* PBXTextBookmark */;
+			15A07EDB107A4CC5001DF701 = 15A07EDB107A4CC5001DF701 /* PBXTextBookmark */;
+			15B4B11E1067DBBA00E14524 = 15B4B11E1067DBBA00E14524 /* PBXTextBookmark */;
+			15B4B1201067DBBA00E14524 = 15B4B1201067DBBA00E14524 /* PBXTextBookmark */;
+			15DBC008106E772100A8BF49 = 15DBC008106E772100A8BF49 /* PBXTextBookmark */;
+			15DBC05E106E9E9200A8BF49 = 15DBC05E106E9E9200A8BF49 /* PBXTextBookmark */;
+			15DBC0CA1070408A00A8BF49 = 15DBC0CA1070408A00A8BF49 /* PBXTextBookmark */;
+			15DBC0CB1070408A00A8BF49 = 15DBC0CB1070408A00A8BF49 /* PBXTextBookmark */;
+			15E54B5610763727009795AE = 15E54B5610763727009795AE /* PBXTextBookmark */;
+		};
+		sourceControlManager = 15E6492710602BF500F9E0E9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}
