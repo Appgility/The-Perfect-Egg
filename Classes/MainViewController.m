@@ -30,13 +30,18 @@
 #import "MainView.h"
 #import "FlipsideViewController.h"
 
-
 @implementation MainViewController
 
+/*
+ The following are UIKit objects
+ */
 @synthesize timeRemainingLabel = timeRemainingLabel_;
 @synthesize statusLabel = statusLabel_;
 @synthesize altitudeLabel = altitudeLabel_;
 @synthesize timeToCookLabel = timeToCookLabel_;
+
+// The ringer object used to ring the alarm when cooking has completed.
+@synthesize ringer = ringer_;
 
 NSString *startTimingOnOpenKey_ = @"startTimingOnOpen";
 
@@ -96,6 +101,20 @@ NSString *startTimingOnOpenKey_ = @"startTimingOnOpen";
 - (void)eggTimerDone:(EggTimer *) eggTimer {
   statusLabel_.text = [NSString stringWithFormat:@"Done - Time To Eat"];
   [self updateTimeRemaining];
+  
+  // Vibrate to indicate Completion
+  // NB! No need to dispose of this sound.
+  SystemSoundID soundID = kSystemSoundID_Vibrate;
+  ringer_ = [Ringer alloc];
+  [ringer_ ring: soundID :15];
+  
+  // Show an alert dialog to indicate Completion
+  UIAlertView *doneCookin =
+    [[UIAlertView alloc] initWithTitle: @"Perfect Egg" message:@"Done Cooking!"
+                              delegate:self cancelButtonTitle:@"OK"
+                     otherButtonTitles:nil];
+  [doneCookin show];
+  [doneCookin release];
 }
 
 - (void)eggTimerMoved:(EggTimer *)eggTimer {
@@ -163,6 +182,13 @@ NSString *startTimingOnOpenKey_ = @"startTimingOnOpen";
   [timerOptions_ writeToFile:timerOptionsFilePath_ atomically:YES];
 }
 
+#pragma mark AlertViewDelegate Methods
+- (void)alertView:(UIAlertView *)alertView 
+didDismissWithButtonIndex:(NSInteger)buttonIndex {
+  MainViewController *c = (MainViewController*) alertView.delegate;
+  [c.ringer hangup];
+  [c.ringer release];
+}
 #pragma mark Framework View Management Methods
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {

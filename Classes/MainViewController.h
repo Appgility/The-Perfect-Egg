@@ -28,19 +28,22 @@
 
 #import "FlipsideViewController.h"
 #import "EggTimer.h"
+#import "Ringer.h"
 
 #define DONENESS_KEY @"Doneness"
 #define EGG_SIZE_KEY @"Egg Size"
 #define USE_ALTITUDE_KEY @"Use Altitude"
 
 @interface MainViewController : 
-  UIViewController <FlipsideViewControllerDelegate,  EggTimerHandler> {
+  UIViewController 
+    <FlipsideViewControllerDelegate,  EggTimerHandler, UIAlertViewDelegate> {
 
   @private
     EggTimer *theEggTimer_;
     NSMutableDictionary *timerOptions_;
     NSString *timerOptionsFilePath_;
     BOOL startTimingOnOpen_;
+    Ringer *ringer_;
     
     IBOutlet UILabel *timeRemainingLabel_;
     IBOutlet UILabel *statusLabel_;
@@ -53,9 +56,16 @@
 @property(nonatomic, retain) IBOutlet UILabel *statusLabel;
 @property(nonatomic, retain) IBOutlet UILabel *altitudeLabel;
 @property(nonatomic, retain) IBOutlet UILabel *timeToCookLabel;
+@property(nonatomic, readonly) Ringer *ringer;
 
+// Show the Options from the info button.
 - (IBAction)showInfo;
+
+// Begin timing the Egg from the start button. This does nothing if an egg is
+// already being cooked.
 - (IBAction)startTimer: (id) sender;
+
+// Reset the timer from the reset button. This will cancel the current timer.
 - (IBAction)resetTimer: (id) sender;
 
 @end
