@@ -9,7 +9,10 @@
 /* Begin PBXBuildFile section */
 		15351D0F10710A95003F25B6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 15351D0E10710A95003F25B6 /* Icon.png */; };
 		15351D1110710ABF003F25B6 /* Icon-Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 15351D1010710ABF003F25B6 /* Icon-Settings.png */; };
-		154EE00B107A551100EC51D1 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 154EE00A107A551100EC51D1 /* README */; };
+		154EE00D107A637200EC51D1 /* README.textile in Resources */ = {isa = PBXBuildFile; fileRef = 154EE00C107A637200EC51D1 /* README.textile */; };
+		154EE015107A732F00EC51D1 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 154EE014107A732F00EC51D1 /* CoreAudio.framework */; };
+		154EE037107A75AA00EC51D1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 154EE036107A75AA00EC51D1 /* AudioToolbox.framework */; };
+		154EE115107AEA9A00EC51D1 /* Ringer.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EE114107AEA9A00EC51D1 /* Ringer.m */; };
 		15B4B11A1067DB4900E14524 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B4B1191067DB4900E14524 /* CoreLocation.framework */; };
 		15DBC0C31070138600A8BF49 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 15DBC0C21070138600A8BF49 /* Settings.bundle */; };
 		15E6492D10602DEC00F9E0E9 /* EggTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E6492C10602DEC00F9E0E9 /* EggTimer.m */; };
@@ -30,7 +33,11 @@
 /* Begin PBXFileReference section */
 		15351D0E10710A95003F25B6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		15351D1010710ABF003F25B6 /* Icon-Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Settings.png"; sourceTree = "<group>"; };
-		154EE00A107A551100EC51D1 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		154EE00C107A637200EC51D1 /* README.textile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.textile; sourceTree = "<group>"; };
+		154EE014107A732F00EC51D1 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		154EE036107A75AA00EC51D1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		154EE114107AEA9A00EC51D1 /* Ringer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ringer.m; path = Classes/Ringer.m; sourceTree = "<group>"; };
+		154EE116107AEAAC00EC51D1 /* Ringer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ringer.h; path = Classes/Ringer.h; sourceTree = "<group>"; };
 		15B4B1191067DB4900E14524 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = /System/Library/Frameworks/CoreLocation.framework; sourceTree = "<absolute>"; };
 		15DBC0C21070138600A8BF49 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		15E6492B10602DEC00F9E0E9 /* EggTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EggTimer.h; path = Classes/EggTimer.h; sourceTree = "<group>"; };
@@ -66,6 +73,8 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */,
 				15B4B11A1067DB4900E14524 /* CoreLocation.framework in Frameworks */,
+				154EE015107A732F00EC51D1 /* CoreAudio.framework in Frameworks */,
+				154EE037107A75AA00EC51D1 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +94,8 @@
 		15E6492A10602C8A00F9E0E9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				154EE116107AEAAC00EC51D1 /* Ringer.h */,
+				154EE114107AEA9A00EC51D1 /* Ringer.m */,
 				15E6492B10602DEC00F9E0E9 /* EggTimer.h */,
 				15E6492C10602DEC00F9E0E9 /* EggTimer.m */,
 			);
@@ -140,9 +151,9 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				154EE00C107A637200EC51D1 /* README.textile */,
 				32CA4F630368D1EE00C91783 /* The_Perfect_Egg_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
-				154EE00A107A551100EC51D1 /* README */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -167,6 +178,8 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765580DF743DE002DB57D /* CoreGraphics.framework */,
+				154EE014107A732F00EC51D1 /* CoreAudio.framework */,
+				154EE036107A75AA00EC51D1 /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -226,7 +239,7 @@
 				15DBC0C31070138600A8BF49 /* Settings.bundle in Resources */,
 				15351D0F10710A95003F25B6 /* Icon.png in Resources */,
 				15351D1110710ABF003F25B6 /* Icon-Settings.png in Resources */,
-				154EE00B107A551100EC51D1 /* README in Resources */,
+				154EE00D107A637200EC51D1 /* README.textile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +257,7 @@
 				289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */,
 				289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */,
 				15E6492D10602DEC00F9E0E9 /* EggTimer.m in Sources */,
+				154EE115107AEA9A00EC51D1 /* Ringer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
